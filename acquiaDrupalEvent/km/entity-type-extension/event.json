@@ -1,0 +1,12 @@
+{
+  "$id": "event",
+  "$schema": "https://schema.yext.com/config/km/entity-type-extension/v1",
+  "enabled": true,
+  "entityType": "event",
+  "field": [
+    {
+      "id": "acquiaDrupalEvent_acquiaDescription",
+      "required": false
+    }
+  ]
+}
