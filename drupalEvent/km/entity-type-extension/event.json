@@ -5,7 +5,7 @@
   "entityType": "event",
   "field": [
     {
-      "id": "acquiaDrupalEvent_acquiaDescription",
+      "id": "drupalEvent_acquiaDescription",
       "required": false
     }
   ]

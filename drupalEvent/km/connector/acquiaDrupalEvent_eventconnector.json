@@ -1,13 +1,13 @@
 {
-  "$id": "acquiaDrupalEvent_eventconnector",
+  "$id": "drupalEvent_eventconnector",
   "$schema": "https://schema.yext.com/config/km/connector/v1",
-  "displayName": "Acquia Event Connector",
+  "displayName": "Drupal Event Connector",
   "entityType": "event",
   "source": {
     "sourceConfig": {
       "apiPullConfig": {
         "requestType": "GET",
-        "url": "${{acquiaDomain}}/jsonapi/node/event",
+        "url": "${{drupalDomain}}/jsonapi/node/event",
         "paginationControl": {
           "cursorPagination": {
             "cursor": "links.next",
@@ -48,11 +48,6 @@
       },
       {
         "type": "JSON",
-        "header": "Door Time",
-        "path": "attributes.field_door_time"
-      },
-      {
-        "type": "JSON",
         "header": "Event Start",
         "path": "attributes.field_event_start"
       },
@@ -60,11 +55,6 @@
         "type": "JSON",
         "header": "Event End",
         "path": "attributes.field_event_end"
-      },
-      {
-        "type": "JSON",
-        "header": "Event Duration",
-        "path": "attributes.field_event_duration"
       },
       {
         "type": "JSON",
@@ -86,7 +76,7 @@
             "Landing Page URL"
           ]
         },
-        "plugin": "acquiaDrupalEvent_constructUrl",
+        "plugin": "drupalEvent_constructUrl",
         "function": "constructUrl"
       }
     },
