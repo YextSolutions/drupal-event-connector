@@ -84,7 +84,6 @@
       "findAndReplace": {
         "inputHeaders": {
           "headers": [
-            "Door Time",
             "Event Start",
             "Event End"
           ]
@@ -144,6 +143,11 @@
     {
       "field": "timezone",
       "header": "Time Zone",
+      "subfieldPath": []
+    },
+    {
+      "field": "drupalEvent_drupalDescription",
+      "header": "Description",
       "subfieldPath": []
     }
   ],
