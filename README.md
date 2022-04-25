@@ -32,7 +32,7 @@ If you are not an existing customer, but interested in learning more, try out a 
 
 1. Log in to your Yext account
 2. Navigate to the **Apps > Directory** tab in the platform (or use the link provided above).
-3. Search for the Drupal Article Connector app and click **Install**.
+3. Search for the Drupal Event Connector app and click **Install**.
 4. Accept the following changes to your account by clicking **Next** and authorize Yext APIs.
 5. Provide your Drupal domain.
 6. Run the Connector!
